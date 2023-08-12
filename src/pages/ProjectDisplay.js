@@ -8,13 +8,14 @@ const ProjectDisplay = () => {
     const { id} = useParams();
     const project = ProjectList[id];
   return (
-    <div className='project'>
-          <h1>{project.name}</h1>
-          <img src={project.image}></img>
-          <p>
-            <b>Skills:</b> {project.skills}
-          </p>
-        <GitHubIcon/>
+    <div className="project">
+      <h1>{project.name}</h1>
+      <img src={project.image}></img>
+        <p className='skills'>
+          <b>Skills:</b> {project.skills}
+        </p>
+      
+      <GitHubIcon />
     </div>
   );
 }

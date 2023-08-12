@@ -23,7 +23,7 @@ export const ProjectList = [
   {
     name: "E-Commerce App",
     image: project4,
-    skills: "ReactJS, HTML, CSS, NodeJS, ExpressJS, JavaScript, MongoDB,",
+    skills: "ReactJS, HTML, CSS, NodeJS, ExpressJS, JavaScript, MongoDB",
   },
 ];
 
